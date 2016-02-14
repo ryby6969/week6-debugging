@@ -1,17 +1,28 @@
 def add( first, second):
+    
     # TODO:
+    
     # there's an error in this code, fix it
-    return first plus second
+    return first + second
 
 def subtract( first, second):
+    return first - second
     # TODO:
+    
     # fill in code here that will return the difference between first and second
 
 def multiply( first, second):
+    return first * second
     # TODO:
+    
     # fill in code here that will return the product of first and second
 
 def divide( first, second):
+    if second == 0:
+        raise Exception('I\'m sorry, I can\'t divide by zero')
+
+    return first / second
+    
     # TODO:
     # fill in code here that:
     #   1. checks the second number to see if it is zero
